@@ -1,8 +1,26 @@
 aid: dandelion-energy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dandelion-energy.png
 name: Dandelion Energy
-description: 'Dandelion Energy is a company surfaced as a portfolio company of gv and added to the API
-  Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Dandelion Energy is a residential geothermal heating and cooling company
+  that designs, engineers, and installs ground-source heat pump systems for homeowners
+  and new-home builders. Its systems tap the earth''s stable subsurface temperature
+  to heat and cool homes year-round, cutting utility bills and carbon emissions versus
+  conventional fossil-fuel HVAC. Dandelion delivers end-to-end service from ground-loop
+  drilling through turnkey installation, and offers a leasing program that removes
+  the upfront cost for buyers. The company reports thousands of installations across
+  the United States. Backed by GV (Google Ventures), it operates in the frontier-tech
+  and climate sector; it currently exposes no public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/dandelion-energy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Geothermal
+- Energy
+- HVAC
+- Heat Pumps
+- Climate Tech
+- Clean Energy
+- Home Services
 - Frontier Tech
 apis: []
 maintainers:
@@ -23,5 +48,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/dandelion-energy-domain-security.yml
 - type: Website
-  url: http://dandelionenergy.com
+  url: https://dandelionenergy.com
+- type: GettingStarted
+  url: https://dandelionenergy.com/get-started
+- type: Support
+  url: https://dandelionenergy.com/contact
+- type: Blog
+  url: https://dandelionenergy.com/news
+- type: PrivacyPolicy
+  url: https://dandelionenergy.com/privacy-policy
+- type: TermsOfService
+  url: https://dandelionenergy.com/terms-of-use
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
